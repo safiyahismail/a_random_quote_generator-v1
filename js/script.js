@@ -10,7 +10,32 @@ project 1 - A Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
+var quotes = [];
+quotes = [
+  { quote: 'I am the best',
+    source: 'Nicki Minaj',
+    citation: 'her music',
+    year: 2010
+  },
 
+  { quote: 'I want my mama',
+    source: 'Omar Alsharif',
+    year: 'Every Day'
+  },
+
+  { quote: 'I just want to build something cool',
+    source: 'Safiyah Ismail'
+  },
+
+  { quote: 'Your time is limited, so dont waste it living someone elses life. Dont be trapped by dogma – which is living with the results of other peoples thinking.',
+    source: 'Steve Jobs'
+  },
+
+  { quote: 'I find that the harder I work, the more luck I seem to have.',
+    source: 'Thomas Jefferson',
+    year: '1888'
+  }
+]
 
 
 /***
